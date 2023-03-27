@@ -19,7 +19,10 @@ sockit = "0.2.0"
 You can create a Socket by binding it to an address like so:
 
 ```rust
-let socket = sockit::UdpSocket::bind("127.0.0.1:0").await?;
+#[tokio::main]
+async fn main() {
+  let socket = sockit::UdpSocket::bind("127.0.0.1:0").await?;
+}
 ```
 
 You can use the Socket to send and receive serializable objects:
