@@ -4,6 +4,7 @@
 [<img alt="crates.io" src="https://img.shields.io/crates/v/sockit.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/sockit)
 [<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-sockit-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/sockit)
 [<img alt="build status" src="https://img.shields.io/github/actions/workflow/status/wcygan/sockit/test.yml?branch=main&style=for-the-badge" height="20">](https://github.com/wcygan/sockit/actions?query=branch%3Amain)
+[![codecov](https://codecov.io/github/wcygan/sockit/branch/main/graph/badge.svg?token=M9M8V24HFW)](https://codecov.io/github/wcygan/sockit)
 
 A high-level UDP Socket that allows for writing and reading (de)serializable values
 
@@ -13,7 +14,7 @@ Add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-sockit = "0.2.0"
+sockit = "0.2.1"
 ```
 
 You can create a Socket by binding it to an address like so:
